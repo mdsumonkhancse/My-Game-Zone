@@ -82,4 +82,10 @@
 
     /* Careers end */
 
+    /* All games start */
+    .all-games-container {
+        flex-direction: column;
+    }
+
+    /* All games end */
 }
