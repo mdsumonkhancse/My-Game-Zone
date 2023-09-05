@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -161,6 +160,10 @@ nav {
     align-items: center;
 }
 
+.gamer-image img {
+    /* width: 50%; */
+}
+
 .we-are-gamer {
     font-size: 48px;
     font-weight: 700;
@@ -254,7 +257,7 @@ nav {
 .play-instantly-container-02 {
     display: flex;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 300px auto 0px;
     text-align: center;
     align-items: center;
 }
@@ -274,9 +277,21 @@ nav {
     font-weight: 400;
 }
 
-.play-instantly-image-container {
-    width: 50%;
+.play-instantly-image-container img {
+    width: 100%;
 }
+
+.play-instantly-image-container {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.another-image {
+    position: absolute;
+    top: 60%;
+    left: -20%;
+}
+
 
 /* Play Instantly end */
 

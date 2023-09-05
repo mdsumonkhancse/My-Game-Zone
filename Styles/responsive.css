@@ -1,12 +1,16 @@
 @media screen and (max-width:425px) {
     .nav-container {
         flex-direction: column;
+
+    }
+
+    .logo-container {
+        flex-direction: column;
     }
 
     .nav-items-container {
+        width: 50%;
         flex-direction: column;
-        align-items: center;
-
     }
 
     .nav-items-container a {
@@ -25,7 +29,7 @@
         text-align: center;
     }
 
-    .banner-container-image {
+    .banner-container-image img {
         width: 100%;
     }
 
@@ -34,10 +38,25 @@
     /* gamer section start */
     .gamer {
         flex-direction: column;
+        text-align: center;
     }
 
     .gamer-container {
         flex-direction: column;
+    }
+
+    .gamer-image img {
+        width: 100%;
+        justify-content: center;
+        /* margin-top: 50px; */
+    }
+
+    .gamer-text {
+        width: 100%;
+    }
+
+    .gamer-description {
+        text-align: center;
     }
 
     /* gamer section end */
@@ -50,9 +69,8 @@
 
     /* Games and funny videos end */
 
-    /* Play Instantly start */
 
-    /* Play Instantly end */
+    /* Play Instantly start */
 
     .play-instantly-container {
         flex-direction: column;
@@ -62,22 +80,45 @@
         flex-direction: column;
     }
 
+    .play-instantly-text-container {
+        width: 100%;
+    }
+
+    .play-instantly-image-container img {
+        width: 100%;
+    }
+
+    /* Play Instantly end */
+
+
     /* Careers start */
     .careers-container {
         flex-direction: column;
-
+        width: 100%;
     }
 
     .careers-text-container {
         width: 100%;
     }
 
-    .careers-image-container {
-        width: 100%;
+    .career-text {
+        text-align: center;
+    }
+
+    .career-description {
+        text-align: center;
     }
 
     .careers-list {
-        flex-direction: column;
+        text-align: center;
+    }
+
+    .all-positions-btn {
+        margin-left: 80px;
+    }
+
+    .careers-image-container img {
+        width: 100%;
     }
 
     /* Careers end */
@@ -88,4 +129,22 @@
     }
 
     /* All games end */
+
+    /* Footer start */
+
+    /* .footer-top-container {
+        flex-direction: column;
+    } */
+
+    .footer-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-privacy {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Footer end */
 }
