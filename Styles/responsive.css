@@ -1,0 +1,49 @@
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .nav-items-container a {
+        flex-direction: column;
+        margin-top: 36px;
+    }
+
+
+    /* Banner section start */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-container-image {
+        width: 100%;
+    }
+
+    /* Banner section end */
+
+    /* gamer section start */
+    .gamer {
+        flex-direction: column;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+
+
+    /* gamer section end */
+
+
+
+}
