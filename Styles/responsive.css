@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:425px) {
     .nav-container {
         flex-direction: column;
     }
@@ -40,10 +40,46 @@
         flex-direction: column;
     }
 
-
-
     /* gamer section end */
 
+    /* Games and funny videos start */
+    .images-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    /* Games and funny videos end */
+
+    /* Play Instantly start */
+
+    /* Play Instantly end */
+
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-instantly-container-02 {
+        flex-direction: column;
+    }
+
+    /* Careers start */
+    .careers-container {
+        flex-direction: column;
+
+    }
+
+    .careers-text-container {
+        width: 100%;
+    }
+
+    .careers-image-container {
+        width: 100%;
+    }
+
+    .careers-list {
+        flex-direction: column;
+    }
+
+    /* Careers end */
 
 }
